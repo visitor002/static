@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("images/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0 24px;
+    width: 100%;
+    max-width: 600px;
+    padding: 64px 24px 48px;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    border-radius: 24px;
+    box-shadow: 0 0 16px 1px black;
+}
+
+.card__header {
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    white-space: normal;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Great Vibes', cursive;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__text {
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.card__footer {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card__buttons {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__gift img {
+    max-width: 200px;
+}
+
+.card__gift:hover, 
+.card__gift:active {
+    transform: scale(1.1);
+}
